@@ -12,25 +12,25 @@ There are six feature from this app that you can access.
 
     This is the first page when you open it. In this page, you should Log in first to continue to Recommendation page.
 
-    ![Home](/screenshot/home.png)
+    ![Home](/screenshot/home.PNG)
 
     If you directly click to the recomendation bar or type an unregistered account, you will be directed to error page.
 
-    ![errorlogin](/screenshot/error_loginfirst.png)
+    ![errorlogin](/screenshot/error_loginfirst.PNG)
 
     Or if you type the wrong password, you will also directed to error page.
 
-    ![errorpwd](/screenshot/error_wrongpwd.png)
+    ![errorpwd](/screenshot/error_wrongpwd.PNG)
 
 2. Sign Up Page
 
     If you don't have any account registered in database, you can sign up in this page.
 
-    ![signup](/screenshot/signup.png)
+    ![signup](/screenshot/signup.PNG)
 
     But if you sign up with username that already exist, you will be directed to error page.
 
-    ![erroruser](/screenshot/error_userexist.png)
+    ![erroruser](/screenshot/error_userexist.PNG)
 
     After you successfully sign in or sign up, there will be current user appear in the right top of navbar. You can also sign out from it.
 
@@ -38,29 +38,29 @@ There are six feature from this app that you can access.
 
      In this page, you can choose what **main dish** do you want to cook, type **supporting ingredients** left on your fridge, and click the button to know what are the recommendation for you.
 
-    ![recommendation](/screenshot/recommendation.png)
+    ![recommendation](/screenshot/recommendation.PNG)
 
 4. Result Page
 
     These are your five recomendation food to cook based on what's left on your fridge. You can also find out its full receipt by clicking it.
 
-    ![Result](/screenshot/result.png)
+    ![Result](/screenshot/result.PNG)
 
 5. Full Receipt Page
     
     This is the full receipt of the food that you choose. 
 
-    ![FullReceipt](/screenshot/full_receipt.png)
+    ![FullReceipt](/screenshot/full_receipt.PNG)
 
 There are also two supporting page that you can access with out login.
 
 1. About Page
 
-    ![About](/screenshot/About.png)
+    ![About](/screenshot/About.PNG)
 
 2. Visualization Page
 
-    ![Visual](/screenshot/visualize.png)
+    ![Visual](/screenshot/visualize.PNG)
 
 If you want to try this, You could clone this Github and try to run _app. py_
 
