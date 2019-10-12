@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Masaku: Masak Sisa Bahan di Kulkas</title>
+    
+    <link href="http://127.0.0.1:5000/file/body.css" rel="stylesheet">
+    <!-- Masukin Dari Materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/14d8201279.js"></script>
+</head>
+<body>
+    <header>
+            <nav>
+                    <div class="nav-wrapper deep-orange darken-4">
+                      <a class="brand-logo center"><img src=https://purepng.com/public/uploads/large/purepng.com-male-chefcheftrained-professional-cookfood-preparationkitchenchefsexperiencedmaleclipart-14215267197370b8iz.png width=60, height=60></a>
+                      <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+                        <li><a href="http://127.0.0.1:5000/about">About</a></li>
+                        <li><a href="http://127.0.0.1:5000/visualization">Visualization</a></li>
+                        <li><a href="http://127.0.0.1:5000/recommendation">Recommendation</a></li>
+                      </ul>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                          <li><i class="fas fa-user fa-sm"></i>&nbsp;{{user}}&nbsp;</li>
+                          <li><a href="http://127.0.0.1:5000/signout">{{signout}}</a></li>
+                      </ul>
+                    </div>
+                  </nav>                
+    </header>
+
+    <main>
+            <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <br>
+                    <br>
+            <h2>Welcome to <br> Masaku!</h2>
+            <h5>Try to find cooking recommendation based on what's left on your fridge. <br></h5><h4>Let's Cook!</h4>
+                </div>
+                            <br><br><br>
+                            <div class="col s6">
+                            <form method="POST" action="http://localhost:5000/">
+                              <div class="card-panel grey lighten-2">
+                                <span class='black-text'><h5>Login</h5></span>
+                                <div class="input-field">
+                                        <input id="username" type="text" name="username">
+                                        <label for="username">Username</label>
+                                      </div>
+                                  <div class="input-field">
+                                        <input id="password" type="password" class="validate" name="password">
+                                        <label for="password">Password</label>
+                                      </div>
+                                    <button class='btn waves-effect waves-light deep-orange darken-4' type="submit">
+                                            Login
+                                            &nbsp;
+                                            <i class="fas fa-arrow-circle-right"></i>
+                                        </button>
+                                        <br>
+                                        <br>
+                                    Doesn't have an account? Let's<a href="http://127.0.0.1:5000/signup">&nbsp; Sign Up</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+    </main>
+
+    <footer class="page-footer deep-orange darken-4">
+        <div class="footer-copyright">
+          <div class="container">
+              <center>
+                    © 2019 Copyright Ihsan Ananto
+                    <br>
+                    <a class="fab fa-github" href="https://github.com/anantosan" style="color:white" target="_blank"></a>
+                    <a class="fab fa-linkedin" href="https://www.linkedin.com/in/mochamad-ihsan-ananto-4a70b8123/" style="color:white" target="_blank"></a>
+              </center>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

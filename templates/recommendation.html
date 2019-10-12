@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Masaku Recommendation</title>
+    
+    <link href="http://127.0.0.1:5000/file/body.css" rel="stylesheet">
+    <!-- Masukin Dari Materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/14d8201279.js"></script>
+</head>
+<body>
+    <header>
+            <nav>
+                    <div class="nav-wrapper deep-orange darken-4">
+                      <a class="brand-logo center"><img src=https://purepng.com/public/uploads/large/purepng.com-male-chefcheftrained-professional-cookfood-preparationkitchenchefsexperiencedmaleclipart-14215267197370b8iz.png width=60, height=60></a>
+                      <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+                        <li><a href="http://127.0.0.1:5000/about">About</a></li>
+                        <li><a href="http://127.0.0.1:5000/visualization">Visualization</a></li>
+                        <li><a href="http://127.0.0.1:5000/recommendation">Recommendation</a></li>
+                      </ul>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                          <li><i class="fas fa-user fa-sm"></i>&nbsp;{{user}}&nbsp;</li>
+                          <li><a href="http://127.0.0.1:5000/signout">{{signout}}</a></li>
+                      </ul>
+                    </div>
+                  </nav>                
+    </header>
+
+    <main>
+            <div class="row">
+                <center><h5>Choose Your Main Dish</h5></center>
+                <form method="POST" action="http://127.0.0.1:5000/hasil">
+                    <!-- <div class="col s1"></div> -->
+                    <!-- Ayam -->
+                        <div class="col s2">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="https://1.bp.blogspot.com/-ylRPhz9fEhY/Wouh5ceXwKI/AAAAAAAABCY/I8_2ZEz1LB0mUfyqkYmB2YoZC62h2MdeACLcBGAs/s1600/kalkun-panggang-nyoss.jpg" width=60, height=160>
+                            </div>
+                            <div class="card-content">
+                              <p>Choose Chicken as your main dish</p>
+                              <br>
+                              <p>
+                                    <label>
+                                      <input class="with-gap" name="dish" id="ayam" value="ayam" type="radio"  />
+                                      <span>Chicken</span>
+                                    </label>
+                                  </p>
+                            </div>
+                          </div>
+                        </div>
+                    <!-- Ikan -->
+                    <div class="col s2">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="https://selerasa.com/wp-content/uploads/2015/09/images_ikan_ikan_kerapu_02.jpg" width=60, height=160>
+                              </div>
+                              <div class="card-content">
+                                <p>Choose Fish as your main dish</p>
+                                <br>
+                                <p>
+                                      <label>
+                                        <input class="with-gap" name="dish" id="ikan" value="ikan" type="radio"  />
+                                        <span>Fish</span>
+                                      </label>
+                                    </p>
+                              </div>
+                            </div>
+                          </div>
+                    <!-- Telur -->
+                    <div class="col s2">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="https://truffle-assets.imgix.net/01d3bb01-S10_267_Telur_Balado_sc_id.png" width=60, height=160>
+                              </div>
+                              <div class="card-content">
+                                <p>Choose Egg as your main dish</p>
+                                <br>
+                                <p>
+                                      <label>
+                                        <input class="with-gap" name="dish" id="telur" value="telur" type="radio"  />
+                                        <span>Egg</span>
+                                      </label>
+                                    </p>
+                              </div>
+                            </div>
+                          </div>
+                    <!-- Tahu -->
+                    <div class="col s2">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/07/10/432760395.jpg" width=60, height=160>
+                              </div>
+                              <div class="card-content">
+                                <p>Choose Tahu as your main dish</p>
+                                <br>
+                                <p>
+                                      <label>
+                                        <input class="with-gap deep-orange darken-4" name="dish" id="tahu" value="tahu" type="radio"  />
+                                        <span>Tahu</span>
+                                      </label>
+                                    </p>
+                              </div>
+                            </div>
+                          </div>
+                    <!-- Tempe -->
+                    <div class="col s2">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="https://swakarya.com/wp-content/uploads/2019/08/SAVE_20190825_122400.jpeg" width=60, height=160>
+                              </div>
+                              <div class="card-content">
+                                <p>Choose Tempe as your main dish</p>
+                                <br>
+                                <p>
+                                      <label>
+                                        <input class="with-gap deep-orange accent-4" name="dish" id="tempe" value="tempe" type="radio"  />
+                                        <span>Tempe</span>
+                                      </label>
+                                    </p>
+                              </div>
+                            </div>
+                          </div>
+                    <!-- Sapi -->
+                    <div class="col s2">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="https://i1.wp.com/www.romadecade.org/wp-content/uploads/2019/03/spicy-rendang-beef-1300x1001-1.jpg?resize=750%2C578&ssl=1" width=60, height=160>
+                              </div>
+                              <div class="card-content">
+                                <p>Choose Meat as your main dish</p>
+                                <br>
+                                <p>
+                                      <label>
+                                        <input class="with-gap deep-orange accent-4" name="dish" id="sapi" value="sapi" type="radio"  />
+                                        <span>Meat</span>
+                                      </label>
+                                    </p>
+                              </div>
+                            </div>
+                          </div>
+                    <div class="col s1"></div>
+                </div>
+                      <center><h5>Input Your Left Ingredients From Your Fridge</h5></center>
+                      <br>
+                      <div class="row">
+                            <div class="col s4"></div>
+                            <div class="input-field col s3">
+                                <input id="ingredients" type="text" class="validate" name="ingredients">
+                                <label for="ingredients">Type your ingredients here...</label>
+                              </div>
+                              <br>
+                              <button class='btn waves-effect waves-light deep-orange accent-4' type="submit">
+                                    Recommendation
+                                    &nbsp;
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </button>
+                        </div>
+        </form>
+    </main>
+
+    <footer class="page-footer deep-orange darken-4">
+        <div class="footer-copyright">
+          <div class="container">
+              <center>
+                    © 2019 Copyright Ihsan Ananto
+                    <br>
+                    <a class="fab fa-github" href="https://github.com/anantosan" style="color:white" target="_blank"></a>
+                    <a class="fab fa-linkedin" href="https://www.linkedin.com/in/mochamad-ihsan-ananto-4a70b8123/" style="color:white" target="_blank"></a>
+              </center>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

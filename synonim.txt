@@ -1,0 +1,137 @@
+ dr : dari 
+aluminium:alumunium
+ambik:ambil
+cabe:cabai
+cabee:cabai
+cabeh:cabai
+cabenya:cabai
+caberawit:cabai rawit
+cabet:cabai
+cabait:cabai
+cabaix:cabai
+cabau:cabai
+caos:saos
+chedar:keju
+cheddar:keju
+cheedar:keju
+chees:keju
+cheese:keju
+chicken:keju
+chiken:ayam
+cmjahe:jahe
+bangkuang:bengkoang
+barbaque:barbeque
+barbecue:barbeque
+baso:bakso
+bawamg:bawang
+bawang:bawang
+bawangbombai:bawang bombai
+bawangmerah:bawang merah
+bawangprei:bawang prei
+bawangputih:bawang putih
+bawanh:bawang
+bawanng:bawang
+bawanv:bawang
+bawmer:bawang merah
+bawnag:bawang
+bawng:bawang
+bawput:bawang putih
+blackpaper:blackpepper
+blackpapper:blackpepper
+blimbing:belimbing
+blimbling:belimbing
+bndeng:bandeng
+dagingny:daging
+dagingnya:daging
+dagingx:daging
+jeru:jeruk
+bwg:bawang
+dau :daun 
+dauh :daun 
+daum :daun 
+egg:telur
+fermifan:fermipan
+fish:ikan
+garlic:bawang putih
+garram:garam
+garan:garam
+garem:garam
+gulapasir:gula pasir
+gulpas:gula pasir
+gulput:gula putih
+hainam:hainan
+honey:madu
+jeru :jeruk 
+jeruj:jeruk
+jeruknya:jeruk
+jeuk:jeruk
+kayumanis:kayu manis
+kejue:keju
+kemanggi:kemangi
+kemir :kemiri 
+kerumbar:ketumbar
+ketumar:ketumbar
+ketuncar:ketumbar
+kluweh:kluwek
+kobis:kubis
+ktumbar:ketumbar
+labusiam:labu siam
+ladah:lada
+ladaku:lada
+ladang:lada
+ladaputih:lada putih
+lado:lada
+yg:yang
+ayamnya:ayam
+balimbing:belimbing
+beef:daging
+bijipala:biji pala
+blackpepper:blackpepper
+brokolli:brokoli
+margarine:margarin
+marica:merica
+mayo :mayones 
+mayonais:mayones
+mayonaise:mayones
+mayoneise:mayones
+mayones:mayones
+mayonese:mayones
+mayonnaise:mayones
+mayzena:maizena
+mericak:merica
+mericanya:merica
+mericaput:merica
+minya :minyak 
+minyaknya:minyak
+minyam:minyak
+moza :mozzarella 
+mozarela:mozzarella
+mozarella:mozzarella
+papper:pepper
+pete:petai
+pineapple:nanas
+puth:putih
+putig:putih
+putihnya:putih
+rice:nasi
+royko:royco
+salm:salam
+sambel:sambal
+sambelnya:sambal
+santal:santan
+santannya:santan
+sere :sereh 
+serehnya:sereh
+serei:sereh
+serre:sereh
+serreh:sereh
+spageti:spaghetti
+spagetti:spaghetti
+spagheti:spaghetti
+tauge:taoge
+toge:taoge
+tomato:tomat
+touge:taoge
+worter:wortel
+yogurt:yoghurt
+atiampela:ati ampela

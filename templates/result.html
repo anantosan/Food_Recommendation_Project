@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Project</title>
+    
+    <link href="http://127.0.0.1:5000/file/body.css" rel="stylesheet">
+    <!-- Masukin Dari Materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/14d8201279.js"></script>
+</head>
+<body>
+    <header>
+            <nav>
+                    <div class="nav-wrapper deep-orange darken-4">
+                      <a class="brand-logo center"><img src=https://purepng.com/public/uploads/large/purepng.com-male-chefcheftrained-professional-cookfood-preparationkitchenchefsexperiencedmaleclipart-14215267197370b8iz.png width=60, height=60></a>
+                      <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+                        <li><a href="http://127.0.0.1:5000/about">About</a></li>
+                        <li><a href="collapsible.html">Visualization</a></li>
+                        <li><a href="http://127.0.0.1:5000/recommendation">Recommendation</a></li>
+                      </ul>
+                    </div>
+                  </nav>                
+    </header>
+
+    <main>
+            <!-- <div class="container"> -->
+            <div class="row">
+                <br>
+                <center><h4>Let's Cook This Food!</h4></center>
+                <div class="col s1"></div>
+                <!-- Rekom 1 -->
+                        <div class="col s2">
+                          <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                              <span class="card-title">{{rekomendasi[0]}}</span>
+                              <p>{{resep_bahan[0]}}</p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#">Full Receipt</a>
+                            </div>
+                          </div>
+                        </div>
+                <!-- Rekom 2 -->
+                <div class="col s2">
+                        <div class="card blue-grey darken-1">
+                          <div class="card-content white-text">
+                            <span class="card-title">{{rekomendasi[1]}}</span>
+                            <p>{{resep_bahan[1]}}</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">Full Receipt</a>
+                          </div>
+                        </div>
+                      </div>
+                <!-- Rekom 3 -->
+                <div class="col s2">
+                        <div class="card blue-grey darken-1">
+                          <div class="card-content white-text">
+                            <span class="card-title">{{rekomendasi[2]}}</span>
+                            <p>{{resep_bahan[2]}}</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">Full Receipt</a>
+                          </div>
+                        </div>
+                      </div>
+                <!-- Rekom 4 -->
+                <div class="col s2">
+                        <div class="card blue-grey darken-1">
+                          <div class="card-content white-text">
+                            <span class="card-title">{{rekomendasi[3]}}</span>
+                            <p>{{resep_bahan[3]}}</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">Full Receipt</a>
+                          </div>
+                        </div>
+                      </div>
+                <!-- Rekom 5 -->
+                <div class="col s2">
+                        <div class="card blue-grey darken-1">
+                          <div class="card-content white-text">
+                            <span class="card-title">{{rekomendasi[4]}}</span>
+                            <p>{{resep_bahan[4]}}</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">Full Receipt</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    </main>
+
+    <footer class="page-footer deep-orange darken-4">
+        <div class="footer-copyright">
+          <div class="container">
+              <center>
+                    © 2019 Copyright Ihsan Ananto
+                    <br>
+                    <a class="fab fa-github" href="https://github.com/anantosan" style="color:white"></a>
+                    <a class="fab fa-linkedin" href="https://www.linkedin.com/in/mochamad-ihsan-ananto-4a70b8123/" style="color:white"></a>
+              </center>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
