@@ -8,7 +8,7 @@ The dataset used for the recommendation is from [Kaggle](https://www.kaggle.com/
 
 There are six feature from this app that you can access.
 
-1. Home Page
+**1. Home Page**
 
     This is the first page when you open it. In this page, you should Log in first to continue to Recommendation page.
 
@@ -22,7 +22,7 @@ There are six feature from this app that you can access.
 
     ![errorpwd](/screenshot/error_wrongpwd.PNG)
 
-2. Sign Up Page
+**2. Sign Up Page**
 
     If you don't have any account registered in database, you can sign up in this page.
 
@@ -34,19 +34,19 @@ There are six feature from this app that you can access.
 
     After you successfully sign in or sign up, there will be current user appear in the right top of navbar. You can also sign out from it.
 
-3. Recommendation Page
+**3. Recommendation Page**
 
      In this page, you can choose what **main dish** do you want to cook, type **supporting ingredients** left on your fridge, and click the button to know what are the recommendation for you.
 
     ![recommendation](/screenshot/recommendation.PNG)
 
-4. Result Page
+**4. Result Page**
 
     These are your five recomendation food to cook based on what's left on your fridge. You can also find out its full receipt by clicking it.
 
     ![Result](/screenshot/result.PNG)
 
-5. Full Receipt Page
+**5. Full Receipt Page**
     
     This is the full receipt of the food that you choose. 
 
@@ -54,11 +54,11 @@ There are six feature from this app that you can access.
 
 There are also two supporting page that you can access with out login.
 
-1. About Page
+**1. About Page**
 
     ![About](/screenshot/About.PNG)
 
-2. Visualization Page
+**2. Visualization Page**
 
     ![Visual](/screenshot/visualize.PNG)
 
