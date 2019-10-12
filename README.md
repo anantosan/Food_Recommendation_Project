@@ -60,7 +60,7 @@ There are also two supporting page that you can access with out login.
 
 2. **Visualization Page**
 
-    ![Visual](/screenshot/visualize.PNG)
+    ![Visual](/screenshot/Visualize.PNG)
 
 If you want to try this, You could clone this Github and try to run _app. py_
 
