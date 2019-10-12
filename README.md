@@ -16,7 +16,7 @@ There are six feature from this app that you can access.
 
     If you directly click to the recomendation bar or type an unregistered account, you will be directed to error page.
 
-    ![error](/screenshot/error_loginfirst.png)
+    ![errorlogin](/screenshot/error_loginfirst.png)
 
     Or if you type the wrong password, you will also directed to error page.
 
@@ -30,7 +30,7 @@ There are six feature from this app that you can access.
 
     But if you sign up with username that already exist, you will be directed to error page.
 
-    ![error](/screenshot/error_userexist.png)
+    ![erroruser](/screenshot/error_userexist.png)
 
     After you successfully sign in or sign up, there will be current user appear in the right top of navbar. You can also sign out from it.
 
