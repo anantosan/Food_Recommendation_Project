@@ -1,4 +1,4 @@
- dr : dari 
+dr : dari 
 aluminium:alumunium
 ambik:ambil
 cabe:cabai
